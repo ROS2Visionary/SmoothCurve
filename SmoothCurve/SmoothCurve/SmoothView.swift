@@ -313,8 +313,8 @@ extension SmoothView {
             subview.removeFromSuperview()
         }
         
-//        isResetDataLine = false
-//        controlPointsArray.removeAll()
+        addSubview(tLB)
+        addSubview(kLB)
         setNeedsDisplay()
         // 添加小圆圈
         creatPoint()
